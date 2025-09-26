@@ -1,0 +1,117 @@
+``html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sunsol Ecoland</title>
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      background: #f0f8ff;
+      color: #333;
+}
+    header {
+      background: #0096d8;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+}
+    nav {
+      background: #002d80;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+}
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+}
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+}
+    h2 {
+      color: #002d80;
+      margin-top: 2rem;
+}
+.highlight {
+      background: #fee018;
+      padding: 1rem;
+      border-radius: 8px;
+}
+    footer {
+      background: #0096d8;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sunsol Ecoland</h1>
+    <p>Un paraíso ecológico 5 estrellas en la Isla de Margarita</p>
+  </header>
+
+  <nav>
+    <a href="#resort">El Resort</a>
+    <a href="#restaurantes">Restaurantes</a>
+    <a href="#actividades">Actividades</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="resort">
+    <h2>🌴 El Resort</h2>
+    <p>Ubicado en una bahía de aguas turquesa, Sunsol Ecoland ofrece 40 hectáreas de ecosistemas únicos: laguna, dunas, montaña y mar. Dividido en tres zonas: Laguna, Oasis y Dunas.</p>
+  </section>
+
+  <section id="restaurantes">
+    <h2>🍽 Restaurantes y Bares</h2>
+    <ul>
+      <li>4 restaurantes temáticos: Tilapia, Cachama y más</li>
+      <li>6 bares: desde playa hasta deportivo</li>
+      <li>Snacks disponibles por la tarde</li>
+    </ul>
+  </section>
+
+  <section id="actividades">
+    <h2>🏊 Actividades</h2>
+    <ul>
+      <li>6 piscinas (2 infantiles)</li>
+      <li>Kayak, paddle, tenis, mini golf, voleibol</li>
+      <li>Shows nocturnos, cine y teatro</li>
+      <li>Club infantil y áreas de juego</li>
+    </ul>
+  </section>
+
+  <section id="servicios">
+    <h2>💆 Servicios Adicionales</h2>
+    <div class="highlight">
+      <p>Spa, sauna, jacuzzi, gimnasio</p>
+      <p>Senderismo al faro, tours en bicicleta</p>
+      <p>Alquiler de vehículos, transporte interno</p>
+      <p>Servicios premium: lavandería, menú de licores, taxis 24h</p>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>📞 Contacto</h2>
+    <p>¿Listo para tu próxima aventura? Escríbenos o reserva directamente.</p>
+    <p>Email: reservas@sunsol.com | Tel: +58 123 456 7890</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sunsol Ecoland. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
+``
